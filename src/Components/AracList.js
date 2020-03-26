@@ -16,11 +16,14 @@ class AracList extends Component {
   }
 
   render() {
+    const araclar = this.state.araclar.map(arac => (
+      <li>
+        <Arac key={arac.id} arac={arac}></Arac>
+      </li>
+    ));
     return (
       <div>
-        {this.state.araclar.map(function(arac) {
-          return <Arac key={arac.id} arac={arac}></Arac>;
-        })}
+        <ul>{araclar}</ul>
       </div>
     );
   }

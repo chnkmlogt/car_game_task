@@ -2,13 +2,16 @@ import React from "react";
 import Alanlar from "./Alanlar";
 
 const Arac = props => {
+  const alanlar = props.arac.alanlar.map((alan, idx) => (
+    <li>
+      <Alanlar key={idx} alan={alan}></Alanlar>
+    </li>
+  ));
   return (
     <div>
-      <p>{props.arac.ad}</p>
-      <p>Araç Alanları;</p>
-      {props.arac.alanlar.map(function(alan, idx) {
-        return <Alanlar key={idx} alan={alan}></Alanlar>;
-      })}
+      <h1>Araç: {props.arac.ad}</h1>
+      <br />
+      <ul>{alanlar}</ul>
     </div>
   );
 };
