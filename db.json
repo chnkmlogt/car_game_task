@@ -1,0 +1,86 @@
+{
+  "araclar": [
+    {
+      "id": 1,
+      "ad": "arac1",
+      "alanlar": [
+        { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
+        { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
+        { "alanAd": "hasar", "miktar": 100, "birim": "yuzde" }
+      ]
+    },
+
+    {
+      "id": 2,
+      "ad": "arac2",
+      "alanlar": [
+        { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
+        { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
+        { "alanAd": "hasar", "miktar": 100, "birim": "yuzde" }
+      ]
+    },
+    {
+      "id": 3,
+      "ad": "arac3",
+      "alanlar": [
+        { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
+        { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
+        { "alanAd": "hasar", "miktar": 100, "birim": "yuzde" }
+      ]
+    },
+    {
+      "id": 4,
+      "ad": "arac4",
+      "alanlar": [
+        { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
+        { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
+        { "alanAd": "hasar", "miktar": 100, "birim": "yuzde" }
+      ]
+    },
+    {
+      "id": 5,
+      "ad": "arac5",
+      "alanlar": [
+        { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
+        { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
+        { "alanAd": "hasar", "miktar": 100, "birim": "yuzde" }
+      ]
+    },
+    {
+      "id": 6,
+      "ad": "arac6",
+      "alanlar": [
+        { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
+        { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
+        { "alanAd": "hasar", "miktar": 100, "birim": "yuzde" }
+      ]
+    },
+    {
+      "id": 7,
+      "ad": "arac7",
+      "alanlar": [
+        { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
+        { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
+        { "alanAd": "hasar", "miktar": 100, "birim": "yuzde" }
+      ]
+    },
+    {
+      "id": 8,
+      "ad": "arac8",
+      "alanlar": [
+        { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
+        { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
+        { "alanAd": "hasar", "miktar": 100, "birim": "yuzde" }
+      ]
+    },
+    {
+      "id": 9,
+      "ad": "arac9",
+      "alanlar": [
+        { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
+        { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
+        { "alanAd": "hasar", "miktar": 100, "birim": "yuzde" }
+      ]
+    }
+  ]
+}
