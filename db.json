@@ -26,7 +26,7 @@
         { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
         { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
         { "alanAd": "hasar", "miktar": 100, "birim": "yuzde" },
-        { "alanAd": "hasar2222", "miktar": 100, "birim": "yok" }
+        { "alanAd": "hasar2222", "miktar": 100, "birim": "TL" }
       ]
     },
     {
