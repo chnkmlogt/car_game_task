@@ -1,9 +1,9 @@
-import React from "react";
-import Alanlar from "./Alanlar";
+import React, { Component } from "react";
 
 import axios from "axios";
+import Arac from "./Arac";
 
-export default class AracList extends React.Component {
+class AracList extends Component {
   state = {
     araclar: []
   };
@@ -16,6 +16,8 @@ export default class AracList extends React.Component {
   }
 
   render() {
-    return <ul>{this.state.araclar.map(arac => Alanlar(arac.alanlar))}</ul>;
+    return this.state.araclar.map(arac => Arac(arac));
   }
 }
+
+export default AracList;

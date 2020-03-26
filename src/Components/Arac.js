@@ -1,4 +1,10 @@
-import React from "react";
+import React, { Component } from "react";
 import Alanlar from "./Alanlar";
 
-export default arac => Alanlar(arac.alanlar);
+class Arac extends Component {
+  render() {
+    return <div>{props.arac}</div>;
+  }
+}
+
+export default Arac;
