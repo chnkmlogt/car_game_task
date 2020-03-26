@@ -1,10 +1,16 @@
 import React, { Component } from "react";
 import Alanlar from "./Alanlar";
 
-class Arac extends Component {
-  render() {
-    return <div>{props.arac}</div>;
-  }
-}
+const Arac = props => {
+  return (
+    <div>
+      <p>{props.arac.ad}</p>
+      <p>Araç Alanları;</p>
+      {props.arac.alanlar.map(function(alan, idx) {
+        return <Alanlar key={idx} alan={alan}></Alanlar>;
+      })}
+    </div>
+  );
+};
 
 export default Arac;

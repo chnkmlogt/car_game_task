@@ -1,3 +1,7 @@
 import React from "react";
 
-export default props => <div>{props.miktar} %</div>;
+export default props => (
+  <div>
+    {props.alanAd} -- {props.miktar} %
+  </div>
+);

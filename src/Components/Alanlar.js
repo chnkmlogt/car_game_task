@@ -8,15 +8,15 @@ const Alanlar = {
   adet: Yuzde,
   yuzde: Adet
 };
-
 export default alan => {
-  if (typeof Alanlar[alan.birim] !== "undefined") {
-    return React.createElement(Alanlar[alan.birim], {
-      alanAd: alan.alanAd,
-      miktar: alan.miktar
+  if (typeof Alanlar[alan.alan.birim] !== "undefined") {
+    return React.createElement(Alanlar[alan.alan.birim], {
+      alanAd: alan.alan.alanAd,
+      miktar: alan.alan.miktar
     });
   }
-  return React.createElement(() => (
-    <div>The component {alan} has not been created yet.</div>
-  ));
+  return React.createElement(Adet, {
+    alanAd: alan.alan.alanAd,
+    miktar: alan.alan.miktar
+  });
 };

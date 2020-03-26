@@ -16,7 +16,13 @@ class AracList extends Component {
   }
 
   render() {
-    return this.state.araclar.map(arac => Arac(arac));
+    return (
+      <div>
+        {this.state.araclar.map(function(arac) {
+          return <Arac key={arac.id} arac={arac}></Arac>;
+        })}
+      </div>
+    );
   }
 }
 
