@@ -3,6 +3,7 @@ import TextField from "@material-ui/core/TextField";
 import InputAdornment from "@material-ui/core/InputAdornment";
 import { makeStyles } from "@material-ui/core/styles";
 import clsx from "clsx";
+import { ListItem } from "@material-ui/core";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -24,11 +25,10 @@ const Alan = props => {
   const classes = useStyles();
 
   return (
-    <div>
+    <ListItem>
       <TextField
         label={props.alanAd}
         value={props.miktar}
-        id="standard-start-adornment"
         className={clsx(classes.margin, classes.textField)}
         InputProps={{
           endAdornment: (
@@ -36,7 +36,7 @@ const Alan = props => {
           )
         }}
       />
-    </div>
+    </ListItem>
   );
 };
 
