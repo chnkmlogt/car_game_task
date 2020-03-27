@@ -10,8 +10,6 @@ import Collapse from "@material-ui/core/Collapse";
 import InboxIcon from "@material-ui/icons/MoveToInbox";
 import DraftsIcon from "@material-ui/icons/Drafts";
 import SendIcon from "@material-ui/icons/Send";
-import ExpandLess from "@material-ui/icons/ExpandLess";
-import ExpandMore from "@material-ui/icons/ExpandMore";
 import StarBorder from "@material-ui/icons/StarBorder";
 
 import axios from "axios";
@@ -33,14 +31,9 @@ class AracList extends Component {
     const araclar = this.state.araclar.map(arac => (
       <ListItem button onClick={this.handleClick}>
         <Arac open={this.state.open} key={arac.id} arac={arac}></Arac>
-        {this.state.open ? <ExpandLess /> : <ExpandMore />}
       </ListItem>
     ));
-    return (
-      <List aria-labelledby="nested-list-subheader">
-        <ListItem>{araclar}</ListItem>
-      </List>
-    );
+    return <List aria-labelledby="nested-list-subheader">{araclar}</List>;
   }
 }
 
