@@ -50,42 +50,6 @@
         { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
         { "alanAd": "hasar", "miktar": 90, "birim": "%" }
       ]
-    },
-    {
-      "id": 6,
-      "ad": "arac6",
-      "alanlar": [
-        { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
-        { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
-        { "alanAd": "hasar", "miktar": 100, "birim": "%" }
-      ]
-    },
-    {
-      "id": 7,
-      "ad": "arac7",
-      "alanlar": [
-        { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
-        { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
-        { "alanAd": "hasar", "miktar": 100, "birim": "%" }
-      ]
-    },
-    {
-      "id": 8,
-      "ad": "arac8",
-      "alanlar": [
-        { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
-        { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
-        { "alanAd": "hasar", "miktar": 100, "birim": "%" }
-      ]
-    },
-    {
-      "id": 9,
-      "ad": "arac9",
-      "alanlar": [
-        { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
-        { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
-        { "alanAd": "hasar", "miktar": 100, "birim": "%" }
-      ]
     }
   ]
 }

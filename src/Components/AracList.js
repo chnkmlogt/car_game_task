@@ -27,6 +27,8 @@ class AracList extends Component {
     ));
     return (
       <div>
+        <h1>Araçlar </h1>
+
         <IconButton onClick={this.refeshList} aria-label="refresh">
           <RefreshIcon fontSize="large" />
         </IconButton>
