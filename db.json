@@ -15,7 +15,7 @@
       "ad": "Araç 2",
       "alanlar": [
         { "id": 1, "alanAd": "Yakıt", "miktar": 70, "birim": "lt" },
-        { "id": 2, "alanAd": "Mühimmat ", "miktar": 5, "birim": "adet" },
+        { "id": 2, "alanAd": "Mühimmat ", "miktar": 10, "birim": "adet" },
         { "id": 3, "alanAd": "Hasar ", "miktar": 60, "birim": "%" }
       ]
     },

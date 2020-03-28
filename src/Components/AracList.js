@@ -2,19 +2,22 @@ import React, { Component } from "react";
 import List from "@material-ui/core/List";
 import IconButton from "@material-ui/core/IconButton";
 import RefreshIcon from "@material-ui/icons/Refresh";
-import axios from "axios";
 import Arac from "./Arac";
+import AracService from "../api/AracService";
 
 class AracList extends Component {
+  constructor(props) {
+    super(props);
+    this.aracService = new AracService();
+  }
+
   state = {
     araclar: []
   };
 
   refeshList = () => {
-    axios.get(`http://localhost:3004/araclar`).then(res => {
-      const araclar = res.data;
-      this.setState({ araclar });
-    });
+    this.aracService.retrieveAraclar();
+    this.setState({ araclar: this.aracService.araclar });
   };
 
   componentDidMount() {
