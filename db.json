@@ -4,9 +4,9 @@
       "id": 1,
       "ad": "Araç 1",
       "alanlar": [
-        { "alanAd": "Yakıt", "miktar": 0, "birim": "lt" },
-        { "alanAd": "Muhimmat ", "miktar": 70, "birim": "adet" },
-        { "alanAd": "Hasar ", "miktar": 950, "birim": "%" }
+        { "id": 1, "alanAd": "Yakıt", "miktar": 0, "birim": "lt" },
+        { "id": 2, "alanAd": "Muhimmat ", "miktar": 30, "birim": "adet" },
+        { "id": 3, "alanAd": "Hasar ", "miktar": 950, "birim": "%" }
       ]
     },
 
@@ -14,28 +14,28 @@
       "id": 2,
       "ad": "Araç 2",
       "alanlar": [
-        { "alanAd": "Yakıt", "miktar": 36699, "birim": "lt" },
-        { "alanAd": "Muhimmat ", "miktar": 70, "birim": "adet" },
-        { "alanAd": "Hasar ", "miktar": 60, "birim": "%" }
+        { "id": 1, "alanAd": "Yakıt", "miktar": 36699, "birim": "lt" },
+        { "id": 2, "alanAd": "Muhimmat ", "miktar": 70, "birim": "adet" },
+        { "id": 3, "alanAd": "Hasar ", "miktar": 60, "birim": "%" }
       ]
     },
     {
       "id": 3,
       "ad": "Araç 3",
       "alanlar": [
-        { "alanAd": "Yakıt", "miktar": 50, "birim": "lt" },
-        { "alanAd": "Muhimmat ", "miktar": 80, "birim": "adet" },
-        { "alanAd": "Hasar ", "miktar": 30, "birim": "%" },
-        { "alanAd": "Maliyet", "miktar": 15000, "birim": "TL" }
+        { "id": 1, "alanAd": "Yakıt", "miktar": 50, "birim": "lt" },
+        { "id": 2, "alanAd": "Muhimmat ", "miktar": 80, "birim": "adet" },
+        { "id": 3, "alanAd": "Hasar ", "miktar": 30, "birim": "%" },
+        { "id": 4, "alanAd": "Maliyet", "miktar": 15000, "birim": "TL" }
       ]
     },
     {
       "id": 4,
       "ad": "Araç 4",
       "alanlar": [
-        { "alanAd": "Yakıt", "miktar": 88, "birim": "lt" },
-        { "alanAd": "Muhimmat ", "miktar": 10, "birim": "adet" },
-        { "alanAd": "Hasar ", "miktar": 25, "birim": "%" }
+        { "id": 1, "alanAd": "Yakıt", "miktar": 88, "birim": "lt" },
+        { "id": 2, "alanAd": "Muhimmat ", "miktar": 10, "birim": "adet" },
+        { "id": 3, "alanAd": "Hasar ", "miktar": 25, "birim": "%" }
       ]
     }
   ]
