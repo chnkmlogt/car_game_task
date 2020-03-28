@@ -8,6 +8,7 @@ import CircularProgress from "@material-ui/core/CircularProgress";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
+import Tooltip from "@material-ui/core/Tooltip";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -29,11 +30,13 @@ const Alan = props => {
 
   if (props.birim === "%") {
     alan = (
-      <CircularProgress
-        className={clsx(classes.margin, classes.textField)}
-        variant="static"
-        value={props.miktar}
-      />
+      <Tooltip title={props.miktar} arrow>
+        <CircularProgress
+          className={clsx(classes.margin, classes.textField)}
+          variant="static"
+          value={props.miktar}
+        />
+      </Tooltip>
     );
   } else {
     alan = (

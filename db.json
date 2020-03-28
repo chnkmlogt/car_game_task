@@ -6,7 +6,7 @@
       "alanlar": [
         { "id": 1, "alanAd": "Yakıt", "miktar": 0, "birim": "lt" },
         { "id": 2, "alanAd": "Mühimmat ", "miktar": 30, "birim": "adet" },
-        { "id": 3, "alanAd": "Hasar ", "miktar": 950, "birim": "%" }
+        { "id": 3, "alanAd": "Hasar ", "miktar": 60, "birim": "%" }
       ]
     },
 
