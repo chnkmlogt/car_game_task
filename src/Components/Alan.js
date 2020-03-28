@@ -30,6 +30,7 @@ const Alan = props => {
         label={props.alanAd}
         value={props.miktar}
         className={clsx(classes.margin, classes.textField)}
+        variant="outlined"
         InputProps={{
           endAdornment: (
             <InputAdornment position="end">{props.birim}</InputAdornment>
