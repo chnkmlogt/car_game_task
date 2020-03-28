@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme => ({
 
 const Alan = props => {
   const classes = useStyles();
-
+  let template = null;
   let alan = null;
 
   if (props.birim === "%") {
@@ -58,11 +58,10 @@ const Alan = props => {
       />
     );
   }
-  let template = (
+  template = (
     <Card className={classes.root} variant="outlined">
       <CardContent>
         <Typography gutterBottom>{props.alanAd} </Typography>
-
         {alan}
       </CardContent>
     </Card>
