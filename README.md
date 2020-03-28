@@ -2,8 +2,9 @@ Uygulamayı çalıştırmak için ;
 
 1. npm install
 2. npm install json-server
-3. json-server --watch db.json
-4. npm start
+3. npm install @material-ui/core
+4. json-server --watch db.json
+5. npm start
 
 Proje: Araba Savaşı Oyunu
 Projenin amaçları: Araç ile savaşırken her araçta yakıt, mühimmat miktarını ve aracın hasar durumunu gösteren bir ekran bulunmaktadır Projenin amacı bu ekranları veritabanındaki bilgiler ile otomatik generate etmek
