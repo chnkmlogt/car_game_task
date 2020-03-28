@@ -9,6 +9,7 @@ import AirportShuttleIcon from "@material-ui/icons/AirportShuttle";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import Grid from "@material-ui/core/Grid";
+import Divider from "@material-ui/core/Divider";
 
 class Arac extends Component {
   state = {
@@ -29,6 +30,8 @@ class Arac extends Component {
     ));
     return (
       <div>
+        <Divider />
+
         <ListItem key={props.arac.id} button onClick={this.openHandler}>
           <ListItemText>
             <h1>{props.arac.ad}</h1>
@@ -40,6 +43,7 @@ class Arac extends Component {
           </ListItemIcon>
           {this.state.open ? <ExpandLess /> : <ExpandMore />}
         </ListItem>
+
         <Collapse in={true} timeout="auto" unmountOnExit>
           <Grid
             container
@@ -50,6 +54,7 @@ class Arac extends Component {
             {this.state.open ? alanlar : null}
           </Grid>
         </Collapse>
+        <Divider />
       </div>
     );
   }
