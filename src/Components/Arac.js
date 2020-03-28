@@ -4,6 +4,8 @@ import ListItem from "@material-ui/core/ListItem";
 import Collapse from "@material-ui/core/Collapse";
 import ExpandLess from "@material-ui/icons/ExpandLess";
 import ExpandMore from "@material-ui/icons/ExpandMore";
+import Badge from "@material-ui/core/Badge";
+import AirportShuttleIcon from "@material-ui/icons/AirportShuttle";
 
 class Arac extends Component {
   state = {
@@ -23,10 +25,11 @@ class Arac extends Component {
     return (
       <ListItem key={props.arac.id} button onClick={this.openHandler}>
         <div>
-          <h1>
-            Araç: {props.arac.ad}
-            {this.state.open ? <ExpandLess /> : <ExpandMore />}
-          </h1>
+          <Badge badgeContent={props.arac.alanlar.length} color="primary">
+            <h1>{props.arac.ad}</h1>
+            <AirportShuttleIcon fontSize="large"></AirportShuttleIcon>
+          </Badge>
+
           <Collapse in={true} timeout="auto" unmountOnExit>
             {this.state.open ? alanlar : null}
           </Collapse>

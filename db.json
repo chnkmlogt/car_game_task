@@ -6,7 +6,7 @@
       "alanlar": [
         { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
         { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
-        { "alanAd": "hasar", "miktar": 100, "birim": "%" }
+        { "alanAd": "hasar", "miktar": 80, "birim": "%" }
       ]
     },
 
@@ -16,7 +16,7 @@
       "alanlar": [
         { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
         { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
-        { "alanAd": "hasar", "miktar": 100, "birim": "%" }
+        { "alanAd": "hasar", "miktar": 40, "birim": "%" }
       ]
     },
     {
@@ -25,7 +25,7 @@
       "alanlar": [
         { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
         { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
-        { "alanAd": "hasar", "miktar": 100, "birim": "%" },
+        { "alanAd": "hasar", "miktar": 30, "birim": "%" },
         { "alanAd": "hasar2222", "miktar": 100, "birim": "TL" }
       ]
     },
@@ -35,7 +35,7 @@
       "alanlar": [
         { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
         { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
-        { "alanAd": "hasar", "miktar": 100, "birim": "%" }
+        { "alanAd": "hasar", "miktar": 25, "birim": "%" }
       ]
     },
     {
@@ -44,7 +44,7 @@
       "alanlar": [
         { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
         { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
-        { "alanAd": "hasar", "miktar": 100, "birim": "%" }
+        { "alanAd": "hasar", "miktar": 90, "birim": "%" }
       ]
     },
     {
