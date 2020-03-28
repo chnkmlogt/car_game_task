@@ -36,40 +36,39 @@ const Alan = props => {
   const classes = useStyles();
 
   let alan = null;
+
   if (props.birim === "%") {
     alan = (
-      <Card className={classes.root} variant="outlined">
-        <CardContent>
-          <Typography gutterBottom>{props.alanAd} </Typography>
-
-          <CircularProgress
-            className={clsx(classes.margin, classes.textField)}
-            variant="static"
-            value={props.miktar}
-          />
-        </CardContent>
-      </Card>
+      <CircularProgress
+        className={clsx(classes.margin, classes.textField)}
+        variant="static"
+        value={props.miktar}
+      />
     );
   } else {
     alan = (
-      <Card className={classes.root} variant="outlined">
-        <CardContent>
-          <Typography gutterBottom>{props.alanAd} </Typography>
-          <TextField
-            value={props.miktar}
-            className={clsx(classes.margin, classes.textField)}
-            InputProps={{
-              endAdornment: (
-                <InputAdornment position="end">{props.birim}</InputAdornment>
-              )
-            }}
-          />
-        </CardContent>
-      </Card>
+      <TextField
+        value={props.miktar}
+        className={clsx(classes.margin, classes.textField)}
+        InputProps={{
+          endAdornment: (
+            <InputAdornment position="end">{props.birim}</InputAdornment>
+          )
+        }}
+      />
     );
   }
+  let template = (
+    <Card className={classes.root} variant="outlined">
+      <CardContent>
+        <Typography gutterBottom>{props.alanAd} </Typography>
 
-  return <ListItem alignItems="center">{alan}</ListItem>;
+        {alan}
+      </CardContent>
+    </Card>
+  );
+
+  return <ListItem alignItems="center">{template}</ListItem>;
 };
 
 export default Alan;
