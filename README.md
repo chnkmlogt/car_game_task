@@ -3,7 +3,7 @@ Uygulamayı çalıştırmak için ;
 1. npm install
 2. npm install json-server
 3. npm install @material-ui/core
-4. json-server --watch db.json
+4. json-server --watch db.json --port 3004
 5. npm start
 
 Proje: Araba Savaşı Oyunu

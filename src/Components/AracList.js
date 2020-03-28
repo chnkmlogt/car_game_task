@@ -11,7 +11,7 @@ class AracList extends Component {
   };
 
   refeshList = () => {
-    axios.get(`http://localhost:3000/araclar`).then(res => {
+    axios.get(`http://localhost:3004/araclar`).then(res => {
       const araclar = res.data;
       this.setState({ araclar });
     });
