@@ -17,18 +17,8 @@ const useStyles = makeStyles(theme => ({
   margin: {
     margin: theme.spacing(1)
   },
-  withoutLabel: {
-    marginTop: theme.spacing(3)
-  },
   textField: {
     width: "15ch"
-  },
-
-  title: {
-    fontSize: 14
-  },
-  pos: {
-    marginBottom: 12
   }
 }));
 
