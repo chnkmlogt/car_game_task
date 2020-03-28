@@ -4,9 +4,9 @@
       "id": 1,
       "ad": "Araç 1",
       "alanlar": [
-        { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
-        { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
-        { "alanAd": "hasar", "miktar": 80, "birim": "%" }
+        { "alanAd": "Yakıt", "miktar": 0, "birim": "lt" },
+        { "alanAd": "Muhimmat ", "miktar": 70, "birim": "adet" },
+        { "alanAd": "Hasar ", "miktar": 950, "birim": "%" }
       ]
     },
 
@@ -14,41 +14,28 @@
       "id": 2,
       "ad": "Araç 2",
       "alanlar": [
-        { "alanAd": "yakit", "miktar": 36699, "birim": "lt" },
-        { "alanAd": "muhimmat", "miktar": 70, "birim": "adet" },
-        { "alanAd": "hasar", "miktar": 60, "birim": "%" }
+        { "alanAd": "Yakıt", "miktar": 36699, "birim": "lt" },
+        { "alanAd": "Muhimmat ", "miktar": 70, "birim": "adet" },
+        { "alanAd": "Hasar ", "miktar": 60, "birim": "%" }
       ]
     },
     {
       "id": 3,
       "ad": "Araç 3",
       "alanlar": [
-        { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
-        { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
-        { "alanAd": "hasar", "miktar": 30, "birim": "%" },
-        { "alanAd": "hasar2222", "miktar": 100, "birim": "TL" }
+        { "alanAd": "Yakıt", "miktar": 50, "birim": "lt" },
+        { "alanAd": "Muhimmat ", "miktar": 80, "birim": "adet" },
+        { "alanAd": "Hasar ", "miktar": 30, "birim": "%" },
+        { "alanAd": "Maliyet", "miktar": 15000, "birim": "TL" }
       ]
     },
     {
       "id": 4,
       "ad": "Araç 4",
       "alanlar": [
-        { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
-        { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
-        { "alanAd": "hasar", "miktar": 25, "birim": "%" },
-
-        { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
-        { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
-        { "alanAd": "hasar", "miktar": 25, "birim": "%" }
-      ]
-    },
-    {
-      "id": 5,
-      "ad": "Araç 5",
-      "alanlar": [
-        { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
-        { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
-        { "alanAd": "hasar", "miktar": 90, "birim": "%" }
+        { "alanAd": "Yakıt", "miktar": 88, "birim": "lt" },
+        { "alanAd": "Muhimmat ", "miktar": 10, "birim": "adet" },
+        { "alanAd": "Hasar ", "miktar": 25, "birim": "%" }
       ]
     }
   ]

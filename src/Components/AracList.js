@@ -18,7 +18,9 @@ class AracList extends Component {
   };
 
   componentDidMount() {
-    this.refeshList();
+    setInterval(async () => {
+      await this.refeshList();
+    }, 500);
   }
 
   render() {
