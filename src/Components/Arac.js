@@ -2,9 +2,12 @@ import React, { Component } from "react";
 import Alanlar from "./Alanlar";
 import ListItem from "@material-ui/core/ListItem";
 import Collapse from "@material-ui/core/Collapse";
-import Box from "@material-ui/core/Box";
+import ExpandLess from "@material-ui/icons/ExpandLess";
+import ExpandMore from "@material-ui/icons/ExpandMore";
 import Badge from "@material-ui/core/Badge";
 import AirportShuttleIcon from "@material-ui/icons/AirportShuttle";
+import ListItemIcon from "@material-ui/core/ListItemIcon";
+import ListItemText from "@material-ui/core/ListItemText";
 
 class Arac extends Component {
   state = {
@@ -22,21 +25,22 @@ class Arac extends Component {
       <Alanlar key={idx} alan={alan}></Alanlar>
     ));
     return (
-      <ListItem key={props.arac.id} button onClick={this.openHandler}>
-        <div>
-          <Badge badgeContent={props.arac.alanlar.length} color="primary">
-            <Box component="div" display="inline" p={1} m={1}>
-              <h1>{props.arac.ad}</h1>
-            </Box>
-
-            <AirportShuttleIcon fontSize="large"></AirportShuttleIcon>
-          </Badge>
-
-          <Collapse in={true} timeout="auto" unmountOnExit>
-            {this.state.open ? alanlar : null}
-          </Collapse>
-        </div>
-      </ListItem>
+      <div>
+        <ListItem key={props.arac.id} button onClick={this.openHandler}>
+          <ListItemText>
+            <h1>{props.arac.ad}</h1>
+          </ListItemText>
+          <ListItemIcon>
+            <Badge badgeContent={props.arac.alanlar.length} color="primary">
+              <AirportShuttleIcon fontSize="large"></AirportShuttleIcon>
+            </Badge>
+          </ListItemIcon>
+          {this.state.open ? <ExpandLess /> : <ExpandMore />}
+        </ListItem>
+        <Collapse in={true} timeout="auto" unmountOnExit>
+          {this.state.open ? alanlar : null}
+        </Collapse>
+      </div>
     );
   }
 }

@@ -31,8 +31,12 @@
     },
     {
       "id": 4,
-      "ad": "arac4",
+      "ad": "saasdsadas",
       "alanlar": [
+        { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
+        { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
+        { "alanAd": "hasar", "miktar": 25, "birim": "%" },
+
         { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
         { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
         { "alanAd": "hasar", "miktar": 25, "birim": "%" }
