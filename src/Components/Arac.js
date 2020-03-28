@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import Alanlar from "./Alanlar";
 import ListItem from "@material-ui/core/ListItem";
 import Collapse from "@material-ui/core/Collapse";
-import ExpandLess from "@material-ui/icons/ExpandLess";
-import ExpandMore from "@material-ui/icons/ExpandMore";
+import Box from "@material-ui/core/Box";
 import Badge from "@material-ui/core/Badge";
 import AirportShuttleIcon from "@material-ui/icons/AirportShuttle";
 
@@ -26,7 +25,10 @@ class Arac extends Component {
       <ListItem key={props.arac.id} button onClick={this.openHandler}>
         <div>
           <Badge badgeContent={props.arac.alanlar.length} color="primary">
-            <h1>{props.arac.ad}</h1>
+            <Box component="div" display="inline" p={1} m={1}>
+              <h1>{props.arac.ad}</h1>
+            </Box>
+
             <AirportShuttleIcon fontSize="large"></AirportShuttleIcon>
           </Badge>
 
