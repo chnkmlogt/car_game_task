@@ -23,7 +23,7 @@ class Arac extends Component {
   render() {
     const props = this.props;
     const alanlar = props.arac.alanlar.map(alan => (
-      <Grid item key={alan.id}>
+      <Grid item>
         <Alan alanAd={alan.alanAd} miktar={alan.miktar} birim={alan.birim} />
       </Grid>
     ));
