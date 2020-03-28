@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Alanlar from "./Alanlar";
+import Alan from "./Alan";
 import ListItem from "@material-ui/core/ListItem";
 import Collapse from "@material-ui/core/Collapse";
 import ExpandLess from "@material-ui/icons/ExpandLess";
@@ -24,7 +24,7 @@ class Arac extends Component {
     const props = this.props;
     const alanlar = props.arac.alanlar.map(alan => (
       <Grid item key={alan.id}>
-        <Alanlar key={alan.id} alan={alan}></Alanlar>
+        <Alan alanAd={alan.alanAd} miktar={alan.miktar} birim={alan.birim} />
       </Grid>
     ));
     return (
