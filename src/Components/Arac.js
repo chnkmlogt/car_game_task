@@ -8,6 +8,7 @@ import Badge from "@material-ui/core/Badge";
 import AirportShuttleIcon from "@material-ui/icons/AirportShuttle";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
+import Grid from "@material-ui/core/Grid";
 
 class Arac extends Component {
   state = {
@@ -22,7 +23,9 @@ class Arac extends Component {
   render() {
     const props = this.props;
     const alanlar = props.arac.alanlar.map((alan, idx) => (
-      <Alanlar key={idx} alan={alan}></Alanlar>
+      <Grid item>
+        <Alanlar key={idx} alan={alan}></Alanlar>
+      </Grid>
     ));
     return (
       <div>
@@ -38,7 +41,14 @@ class Arac extends Component {
           {this.state.open ? <ExpandLess /> : <ExpandMore />}
         </ListItem>
         <Collapse in={true} timeout="auto" unmountOnExit>
-          {this.state.open ? alanlar : null}
+          <Grid
+            container
+            direction="row"
+            justify="space-evenly"
+            alignItems="center"
+          >
+            {this.state.open ? alanlar : null}
+          </Grid>
         </Collapse>
       </div>
     );

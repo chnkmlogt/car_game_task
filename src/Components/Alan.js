@@ -69,7 +69,7 @@ const Alan = props => {
     );
   }
 
-  return <ListItem>{alan}</ListItem>;
+  return <ListItem alignItems="center">{alan}</ListItem>;
 };
 
 export default Alan;

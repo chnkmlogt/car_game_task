@@ -14,9 +14,9 @@
       "id": 2,
       "ad": "Araç 2",
       "alanlar": [
-        { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
-        { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
-        { "alanAd": "hasar", "miktar": 40, "birim": "%" }
+        { "alanAd": "yakit", "miktar": 36699, "birim": "lt" },
+        { "alanAd": "muhimmat", "miktar": 70, "birim": "adet" },
+        { "alanAd": "hasar", "miktar": 60, "birim": "%" }
       ]
     },
     {
