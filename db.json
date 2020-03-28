@@ -2,7 +2,7 @@
   "araclar": [
     {
       "id": 1,
-      "ad": "arac1",
+      "ad": "Araç 1",
       "alanlar": [
         { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
         { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
@@ -12,7 +12,7 @@
 
     {
       "id": 2,
-      "ad": "arac2",
+      "ad": "Araç 2",
       "alanlar": [
         { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
         { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
@@ -21,7 +21,7 @@
     },
     {
       "id": 3,
-      "ad": "arac3",
+      "ad": "Araç 3",
       "alanlar": [
         { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
         { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
@@ -31,7 +31,7 @@
     },
     {
       "id": 4,
-      "ad": "saasdsadas",
+      "ad": "Araç 4",
       "alanlar": [
         { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
         { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
@@ -44,7 +44,7 @@
     },
     {
       "id": 5,
-      "ad": "arac5",
+      "ad": "Araç 5",
       "alanlar": [
         { "alanAd": "yakit", "miktar": 100, "birim": "lt" },
         { "alanAd": "muhimmat", "miktar": 100, "birim": "adet" },
